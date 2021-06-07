@@ -148,7 +148,7 @@ max-height: 1000px;
 }
 h2{
     top:    10px;
-    font-size:47px;
+    font-size:40px;
     color:rgb(0, 0, 0);
     opacity: 1!important;
     position: absolute;
@@ -193,7 +193,7 @@ h2{
     
     h3{
         top:calc(380px + 18vw);
-        font-size: 50px;
+        font-size: 45px;
         color: black;
         max-height: 80px;
         font-family: raleway;
