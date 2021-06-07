@@ -1,7 +1,4 @@
 
-html{
-    
-}
 body{
     margin: 0 auto;
     height: 100%;
@@ -162,7 +159,7 @@ h2{
     width:60vw;
     position: absolute;
     margin-left:80px;
-    margin-top:30%;
+    margin-top:43%;
     max-width: 459px;
     max-height: 111px;
     background-image: url(./IMG/wpp.png);
@@ -202,7 +199,8 @@ h2{
         text-align: center;
         position:absolute;   
         border-bottom: 3px solid black;    
-        max-width: 380px; 
+        
+        width: 440px;
 
     }
     p{

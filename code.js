@@ -92,7 +92,8 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 
 
 var $target = $('#servicos');
-				
+if($(window).width() < 1000)
+{				
 				
 				var clock = setInterval(animeScroll,200);
 	
@@ -104,16 +105,17 @@ var $target = $('#servicos');
 				var servicosTop = $('#servicos').offset().top;
 				var visiteTop = $('#mapaDiv').offset().top;
 				
-				if (documentTop > servicosTop - 800) {
+				if (documentTop > servicosTop - 1800) {
 					$('.servicos').addClass('servicosAnime');
 					
 				
-				} if(documentTop > visiteTop - 700 ){
+				} if(documentTop > visiteTop - 1700 ){
 					$('.mapaDiv').addClass('mapaAnime');
 					clearInterval(clock);
 				} 
 			});
 		}
+	}
 animeScroll();
 
 
