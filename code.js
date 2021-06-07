@@ -115,6 +115,28 @@ if($(window).width() < 1000)
 				} 
 			});
 		}
+	}else{
+		var clock = setInterval(animeScroll,200);
+	
+		function animeScroll() {
+			var documentTop = $(document).scrollTop();
+			
+	
+			$target.each(function(){
+				var servicosTop = $('#servicos').offset().top;
+				var visiteTop = $('#mapaDiv').offset().top;
+				
+				if (documentTop > servicosTop - 800) {
+					$('.servicos').addClass('servicosAnime');
+					
+				
+				} if(documentTop > visiteTop - 700 ){
+					$('.mapaDiv').addClass('mapaAnime');
+					clearInterval(clock);
+				} 
+			});
+		}
+
 	}
 animeScroll();
 
