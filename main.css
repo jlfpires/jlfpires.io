@@ -33,6 +33,7 @@ position: relative;
 margin-top: 20px;
 margin-left: 130px;
 max-width: 400px;
+margin-right: 5vw;
 }
 header{
 background-color: rgb(27, 27, 27);
@@ -69,7 +70,7 @@ h1{
     color: transparent;
     border: none;
     border-bottom: transparent;
-    
+    min-width: 200px                                                                                                ;
 }
 h1:hover{
     transform: scale(1.35);
@@ -437,20 +438,22 @@ text-align: center;
     @media (min-width:1025px){
        
         .instagram{
-            width: 250px;
-    transition: all .0s ease-in-out;
-    float: right;
-    margin-top: 53px;
-    margin-right: 140px;
-    transition: 0.6s;
+            width: 200px;
+            transition: all .0s ease-in-out;
+            float: right;
+            margin-top:40px;
+            margin-right: 60px;
+            position: relative;
+            max-width: 600px;
+    
         }
         .instagram:hover{
             transform: scale(1.2);
         }
         h1{
-            width: 130px;
+            width: 10vw;
             margin-top: 10px;
-            margin-left: 80px;
+            margin-left: 01vw;
             font-weight:lighter;
             cursor: pointer;
             font-size: 28px;
@@ -490,14 +493,13 @@ text-align: center;
             height: 17vw;
             width:60vw;
             position: absolute;
-            margin-left:400px;
-            margin-top:30%;
+            margin-left:80px;
+            margin-top:155px;
             max-width: 459px;
             max-height: 111px;
             background-image: url(./IMG/wpp.png);
             background-repeat: no-repeat;
             cursor: pointer;
-            transition: 0.6s;
             }
             .wpp:hover{
                 transform: scale(1.1);
@@ -530,21 +532,21 @@ text-align: center;
                 font-weight:bold;
             }
         h2{
-            top: 140px;
-            font-size:47px;
+            top:    50px;
+            font-size:40px;
             color:rgb(0, 0, 0);
             opacity: 1!important;
             position: absolute;
             
             margin: 0 auto;
             max-width: 500px;
-            margin-left:400px;
+            margin-left:60px;
             font-family: raleway;
         }
         .img1{
             margin-top: 03vw;
             position: relative;
-            width: 310vh;
+            width: 30vh;
             max-width: 300px;
             
          }
@@ -562,16 +564,15 @@ text-align: center;
         .petHotel{
             margin: 0 auto;
             margin-right: 12vw;
-            margin-top: 100px;
-          
-          
-            height: 30vw;
-            width:calc(42vh);
+            margin-top: 50px;
+            min-height: 500px;
+         
+            height:calc(20vw + 200px);
+            width:25vw;
             max-width: 450px;
             background-color: rgb(255, 255, 255);
             float: left;
             max-height: 800px;
-            min-height: 550px;
             text-align: center;
             box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
             transition: all .2s ease-in-out;
@@ -582,14 +583,14 @@ text-align: center;
         }
         .tosa{
             margin: 0 auto;
-            margin-top: 100px;
-            height: 30vw;
-            width:calc(42vh);
-            max-width: 450px;
+            margin-top: 50px;
+            height:calc(20vw + 200px);
+            width:25vw;
+            min-height: 500px;
             background-color: rgb(255, 255, 255);
             float: left;
             max-height: 800px;
-            min-height: 550px;
+   
             text-align: center;
             box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
             transition: all .2s ease-in-out;
@@ -600,18 +601,20 @@ text-align: center;
       
         .banho{
           margin: 0 auto;
-            margin-top: 100px;
-            height: 30vw;
-            width:calc(42vh);
-            max-width: 450px;
+            margin-top: 50px;
+            height:calc(20vw + 200px);
+            width:25vw;
+            min-height: 500px;
             background-color: rgb(255, 255, 255);
             float: left;
             max-height: 800px;
-            min-height: 550px;
+   
             text-align: center;
             box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
             transition: all .2s ease-in-out;
             margin-left: 10vw;
+            
+          
         }
         .banho:hover{
             transform: scale(1.1);
