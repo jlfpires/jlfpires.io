@@ -99,18 +99,18 @@ if($(window).width() < 1000)
 	
 		function animeScroll() {
 			var documentTop = $(document).scrollTop();
-			
-	
+			$('.servicos').addClass('servicosAnime');
+			$('.mapaDiv').addClass('mapaAnime');
 			$target.each(function(){
 				var servicosTop = $('#servicos').offset().top;
 				var visiteTop = $('#mapaDiv').offset().top;
 				
-				if (documentTop > servicosTop - 2800) {
-					$('.servicos').addClass('servicosAnime');
+				if (documentTop > servicosTop - 3800) {
+					
 					
 				
-				} if(documentTop > visiteTop - 1700 ){
-					$('.mapaDiv').addClass('mapaAnime');
+				} if(documentTop > visiteTop - 700 ){
+					
 					clearInterval(clock);
 				} 
 			});
