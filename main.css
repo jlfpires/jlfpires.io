@@ -149,7 +149,7 @@ max-height: 1000px;
 }
 h2{
     top:    50px;
-    font-size:40px;
+    font-size:calc(40px );
     color:rgb(0, 0, 0);
     opacity: 1!important;
     position: absolute;
@@ -244,37 +244,40 @@ h2{
         max-height: 1400px;
         text-align: center;
         margin-left: 20px;
+        min-height: 1400px;
     }
    
     .tosa{
         margin: 0 auto;
-        margin-top: 220px;
+        margin-top: 120px;
         height:calc(40vh + 80vw);
         width:calc(105vw);
         box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
         background-color: rgb(255, 255, 255);
         float: left;
-        max-height: 1200px;
+        max-height: 1400px;
         text-align: center;
         margin-left: 20px;
+        min-height: 1400px;
     }
     .petHotel{
         margin: 0 auto;
-        margin-top: 220px;
+        margin-top: 120px;
         height:calc(40vh + 80vw);
         width:calc(105vw);
         box-shadow: 0 20px 20px 0 rgb(150, 167, 185), 0 0 0 1px #aebedf;
         background-color: rgb(255, 255, 255);
         float: left;
-        max-height:calc(1800px - 75vw);
+        max-height: 1400px;
         text-align: center;
         margin-left: 20px;
+        min-height: 1400px;
     }
     
     .img1{
         margin-top: 70px;
        position: relative;
-       width: 50vh;
+       width: 90vw;
        
        
     }
@@ -283,7 +286,7 @@ h2{
 
     .img2{
         margin-top: 70px;
-        width: 35vh;
+        width: 90vw;
     }
 
 
@@ -291,11 +294,11 @@ h2{
 
     .img3{
         margin-top: 70px;
-        width: 35vh;
+        width: 90vw;
         
     }
     .visite-nos{
-        margin-top:3000px;
+        margin-top:3800px;
         height:20vw;
         background-color: rgb(29, 29, 29);
         width: 100%;
@@ -435,7 +438,7 @@ text-align: center;
 }
 
 
-    @media (min-width:1025px){
+    @media (min-width:1024px){
         .logo{
             width:calc(10vw + 200px);
             float:left;
@@ -513,7 +516,7 @@ text-align: center;
             height: 17vw;
             width:60vw;
             position: absolute;
-            margin-left:calc(180px + 1vw);
+            margin-left:calc(20px + 08vw);
             margin-top:155px;
             max-width: 459px;
             max-height: 111px;
@@ -560,7 +563,7 @@ text-align: center;
             
             margin: 0 auto;
             max-width: 500px;
-            margin-left:calc(160px + 1vw);
+            margin-left:calc(20px + 08vw);
             font-family: raleway;
         }
         .img1{
@@ -585,7 +588,7 @@ text-align: center;
             margin: 0 auto;
             margin-right: 12vw;
             margin-top: 50px;
-            min-height: 500px;
+            min-height: 540px;
          
             height:calc(20vw + 200px);
             width:25vw;
@@ -606,7 +609,7 @@ text-align: center;
             margin-top: 50px;
             height:calc(20vw + 200px);
             width:25vw;
-            min-height: 500px;
+            min-height: 540px;
             background-color: rgb(255, 255, 255);
             float: left;
             max-height: 800px;
@@ -624,7 +627,7 @@ text-align: center;
             margin-top: 50px;
             height:calc(20vw + 200px);
             width:25vw;
-            min-height: 500px;
+            min-height: 540px;
             background-color: rgb(255, 255, 255);
             float: left;
             max-height: 800px;
