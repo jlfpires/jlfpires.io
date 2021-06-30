@@ -13,7 +13,7 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 	
 	function scrollToIdOnClick(event) {
 		event.preventDefault();
-		const i=188;
+		const i=0;
 		const j=0;
 		const k=140;
 		
@@ -25,22 +25,31 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 		}if(jQuery('#Localizacao').data('clicked')){
 	
 		
-		var ti = getScrollTopByHref(event.currentTarget)-j;
+		var to = getScrollTopByHref(event.currentTarget)-j;
 		console.log(j);
-		scrollToPosition(ti);
+		scrollToPosition(to);
 		
 		}if(jQuery('#bFotos').data('clicked')){
 		
 		
-		var te = getScrollTopByHref(event.currentTarget)-k;
-		scrollToPosition(te);
+		var to = getScrollTopByHref(event.currentTarget)-k;
+		scrollToPosition(to);
 		
 		
+		}if(jQuery('#bsobre').data('clicked')){
+		
+		
+			var to = getScrollTopByHref(event.currentTarget)-k;
+			scrollToPosition(to);
 		}
-		
-		
-	}
-	
+		if(jQuery('#bprodutos').data('clicked')){
+
+
+		var to = getScrollTopByHref(event.currentTarget)-k;
+		scrollToPosition(to);
+}
+
+}
 	jQuery('#bServicos').click(function(){
 		$(this).data('clicked', true);
 	  });
@@ -52,6 +61,13 @@ const menuItems = document.querySelectorAll('.menu a[href^="#"]');
 
 	
 	  jQuery('#bFotos').click(function(){
+		$(this).data('clicked', true);
+	  });
+
+	  jQuery('#bsobre').click(function(){
+		$(this).data('clicked', true);
+	  });
+	  jQuery('#bprodutos').click(function(){
 		$(this).data('clicked', true);
 	  });
 
@@ -121,14 +137,41 @@ function tela(){
 			$target.each(function(){
 				var servicosTop = $('#servicos').offset().top;
 				var visiteTop = $('#mapaDiv').offset().top;
-				
+				var produtosTop = $('#box1').offset().top;
+				var sobreTop = $('#sobreDiv').offset().top;
+			
 				if (documentTop > servicosTop - 800) {
 					$('.servicos').addClass('servicosAnime');
 					
 				
 				} if(documentTop > visiteTop - 800 ){
 					$('.mapaDiv').addClass('mapaAnime');
-					clearInterval(clock);
+					
+				}
+				 if(documentTop > produtosTop - 1000 ){
+					
+					$('.box').addClass('boxAnime');
+					
+					setTimeout(function() { 
+						$('.box1').addClass('boxAnime');
+					}, 800);
+					setTimeout(function() { 
+						$('.box2').addClass('boxAnime');
+					}, 1200);
+					setTimeout(function() { 
+						$('.box3').addClass('boxAnime');
+					}, 1600);
+					setTimeout(function() { 
+						$('.box4').addClass('boxAnime');
+					}, 2000);
+					setTimeout(function() { 
+						$('.box5').addClass('boxAnime');
+					}, 2400);	
+				}
+				if(documentTop > sobreTop - 700 ){
+					$('.sobredesc').addClass('sobreAnime');
+					
+
 				} 
 			});
 			
@@ -138,6 +181,10 @@ function tela(){
 	}
 }
 tela();
+
+
+
+
 
 if($(window).width() >= 1000)
 {
@@ -163,3 +210,8 @@ $('#fotos').slick({
   speed:1000
 });
 }
+
+
+
+
+
