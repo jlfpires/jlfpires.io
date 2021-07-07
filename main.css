@@ -494,12 +494,12 @@ a:hover {
          font-size: 15px;
     }
     .sobredesc{
-        height: 225vw;
+        height: 315vw;
         width: 100vw;
         background-color: white;
         
         float: left;
-        max-height: 1400px;
+        max-height: 2500px;
         max-width: 2300px;
     }
 
@@ -513,9 +513,9 @@ a:hover {
         font-family: ralewayB;
         font-weight: bold;
         float: right;
-
-        margin: 05vw;
-        
+        border: 2px solid #ba6e2d;
+        margin: 03vw;
+        padding: 10px;
        
     }
 
@@ -592,7 +592,7 @@ a:hover {
         #fotos{
             margin-top:30px;
             background-color: #2b2b2b;
-            width: 100%;
+            width: 99.5vw;
             height:calc(200px + 50vw);
             float: left;
             display: flex;
@@ -600,6 +600,7 @@ a:hover {
             z-index: 2;
             max-width: 2200px;
             margin: 0 auto;
+           
         }
         #fotos img{
             margin-top: 2vw;
@@ -783,7 +784,7 @@ a:hover {
         position: absolute;
         
         margin-left:calc(15px + 3vw);
-        margin-top:calc(100px + 1vw);
+        margin-top:calc(120px + 1vw);
         max-width: 459px;
         max-height: 111px;
         background-image: url(./IMG/wpp.png);
@@ -835,8 +836,8 @@ a:hover {
       
         }
         h2{
-            left:calc(0px + 5vw);
-            font-size:calc(17px );
+            left:calc(0px + 2vw);
+            font-size:calc(25px );
             color:rgb(0, 0, 0);
             opacity: 1!important;
             position: absolute;
@@ -1129,12 +1130,12 @@ a:hover {
          font-size: 15px;
     }
     .sobredesc{
-        height: 150vw;
+        height: 300vw;
         width: 100vw;
         background-color: white;
         
         float: left;
-        max-height: 1100px;
+        max-height:2500px;
         max-width: 2300px;
     }
 
@@ -1142,16 +1143,15 @@ a:hover {
 
 
     h20{
-     
-        font-size:calc(10px + 1.5vw);
+        font-size:calc(26px + 1.5vw);
         color: rgb(0, 0, 0);
         font-family: ralewayb;
         font-weight: bold;
         float: right;
-    text-align: center;
-        
-        
-       
+        margin:5vw;
+        margin-top: 120px;
+        border: 2px solid #ba6e2d;
+       padding: 30px;
     }
 
     #imgSobre{
@@ -1271,7 +1271,7 @@ a:hover {
                 float: left;
             }
             .contato{
-                margin-top:5vw;
+                margin-top:0vw;
                 width: 100%;
                
                 max-height: 650px;
@@ -1783,31 +1783,38 @@ a:hover {
             float: left;
             max-height: 1000px;
             max-width: 2300px;
-            transition: 1.2s;
-            transform: translate3d(0,0,0);
-            opacity:0;
+            
+            opacity:1;
         }
         .sobreAnime{
             opacity: 1;
-            transform: translate3d(0,0,0);
-            transition: 0.4s;
+            transform: translate3d(0,0,0)!important;
+            transition: 0.8s;
         }
 
-        #imgSobre{
-            width: 45vw;
-            margin-left: 05%;
+        .imgSobre{
+            width: 30vw;
+            height: 31vw;
+            margin-left: 12%;
+            max-height: 700px;
         max-width: 700px    ;
-        margin-top: 8vw;
+        margin-top: 110px;
+        transform: translate3d(-200px,0,0);
+     
         }
 
         h20{
+           
+            transform: translate3d(+200px,0,0);
          
-            font-size:25px;
+            font-size:30px;
             color: rgb(0, 0, 0);
             font-family: ralewayb;
             font-weight: bold;
             float: right;
-            margin-top: 13vw;
+            margin-top: 100px;
+            border: 2px solid #ba6e2d;
+            padding: 50px;
      
             width: 40vw;
             max-width: 800px;
@@ -2459,27 +2466,37 @@ a:hover {
       
         max-width: 2300px;
     }
+    .sobreAnime{
+        opacity: 1;
+        transform: translate3d(0,0,0)!important;
+        transition: 0.8s;
+    }
 
 
 
     h20{
-         
+        transform: translate3d(+100px,0,0)!important;
         font-size: 18px;
         color: rgb(0, 0, 0);
         font-family: ralewayB;
         font-weight: bold;
         float: right;
-    margin-top: 100px;
+    margin-top: 60px;
         width: 40vw;
         max-width: 800px;
-        margin-right: 10%;
-        
-       
+       border: 2px solid #ba6e2d;
+        margin-right: 4%;
+       padding: 25px;
     }
 
     #imgSobre{
+        transform: translate3d(-100px,0,0);
         width: 50vw;
         height: 55vw;
+        max-height: 400px;
+        margin-top: 60px;
+        max-width: 400px;
+        margin-left: 5%;
     }
 
 
@@ -2597,6 +2614,7 @@ a:hover {
                 background-color: white;
                 float: left;
             }
+            
             .contato{
                 margin-top:0;
                 width: 100%;
