@@ -39,7 +39,7 @@ a:hover {
 @media(max-width: 500px){
     header{
         background-color: rgb(27, 27, 27);
-        height: 2vw;
+        height: 1vw;
         width: 100%;
         float: left;
         margin: 0 auto;
@@ -53,8 +53,8 @@ a:hover {
 {
   display: block;
   position: relative;
-  top: 30px;
-  left: 50px;
+  top: 40px;
+  left: 20px;
   
   z-index: 1;
   
@@ -196,7 +196,7 @@ a:hover {
         float:right;
         position: relative;
         margin-top: 13px;
-        margin-right: 10px;
+        margin-right: 20vw;
         max-width: 400px;
         
         }
