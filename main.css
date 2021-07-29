@@ -179,8 +179,8 @@ a:hover {
                 float: left;
                 position: relative;
                 max-height: 800px;
-                border-bottom: 4px solid #ba6e2d;
-                border-top:4px solid #ba6e2d;
+                border-bottom: 4px solid #d1721f;
+                border-top:4px solid #d1721f;
             
             }
             .backgroundIntro{
@@ -326,7 +326,7 @@ a:hover {
         }
         p3{
             font-size:32px;
-            color: #ba6e2d;
+            color: #d1721f;
            
         }
         h2{
